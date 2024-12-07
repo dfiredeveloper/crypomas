@@ -11,33 +11,33 @@ export default function Home() {
     <div className="w-full">
       <div className="bg-white w-full md:py-0 py-20">
         <HeroSection />
-        <div className="w-full bg-green-600 py-10">
+        {/* <div className="w-full bg-green-600 py-10">
           <div className="container mx-auto w-full">
             <h3 className="font-extrabold md:text-2xl text-xl text-center font-korona">
               CA: C3Y2Ku8BK37uHHt5TLVNPFnf3hp98fLvV9BX224Fpump
             </h3>
           </div>
-        </div>
+        </div> */}
         <div className="w-full bg-red-600 py-24">
           <div className="md:max-w-7xl md:px-0 px-4 container mx-auto w-full">
             <div className="flex md:flex-row flex-col w-full">
-              <div className="md:w-[60%] pr-20">
+              <div className="md:w-[60%] w-full pr-20">
                 <h3 className="font-korona font-bold text-white md:text-[40px] text-[32px]">
                   Get Yourself Ready for CRYPTOMAS
                 </h3>
-                <p className="pb-2 pt-8 md:text-xl text-base leading-9">
+                <p className="pb-2 pt-8 md:text-xl text-base leading-9 text-white">
                   $CRYPTOMAS is a festive meme coin bringing the magic of Santa
                   and the joy of Christmas to the crypto world! 🎅 🎄 Built
                   around the spirit of giving and holiday cheer, $CRYPTOMAS
                   combines fun, community vibes, and seasonal surprises, making
                   it the ultimate coin for hodlers who love the holidays.
                 </p>
-                <p className="md:text-xl text-base leading-9">
+                <p className="md:text-xl text-base leading-9 text-white">
                   $CRYPTOMAS is more than just a meme coin - it is a celebration
                   of the festive spirit on the blockhain!. It is the season to
                   invest in good cheer.
                 </p>
-                <p className="py-2 md:text-xl text-base leading-9">
+                <p className="py-2 md:text-xl text-base leading-9 text-white">
                   Get ready to sleigh the blockchain this Christmas with Santa
                   on your side!.
                 </p>
