@@ -44,13 +44,13 @@ export default function HeroSection() {
             transactions go to Children&apos;s Charities!
           </p>
           <div className="md:space-x-4 flex md:flex-row flex-col space-y-5 md:space-y-0">
-            <button className="bg-red-600 text-white md:px-8 px-5 py-3 rounded-full font-bold hover:bg-red-700 transition-colors font-korona md:text-xl text-lg">
+            <button className="bg-red-600 text-white md:px-8 px-5 py-3 rounded-full font-bold hover:bg-red-700 transition-colors font-korona md:text-xl text-lg flex text-center justify-center">
               Buy $CRYPTOMAS
             </button>
             <Link
               href={"https://t.me/bagcryptomas"}
               target="_blank"
-              className="bg-green-600 text-white md:px-8 px-5 py-3 rounded-full font-bold hover:bg-green-700 transition-colors font-korona md:text-xl text-base"
+              className="bg-green-600 text-white md:px-8 px-5 py-3 rounded-full font-bold hover:bg-green-700 transition-colors font-korona md:text-xl text-base flex text-center justify-center"
             >
               Join Community
             </Link>
